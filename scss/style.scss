@@ -1,0 +1,40 @@
+
+$dark: #333;
+$light:white;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    background: $dark;
+    div{
+        width: 25%;
+        height: 100%;
+        color:$light;
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-around;;
+        align-items: center;
+
+    }
+}
+
+.content_text{
+    
+    .right{
+        float: right;
+        height: 500px;
+        text-align: center;
+        padding:15px;
+        background-color: $dark;
+        color: $light;
+        font-size: 19px;
+
+    }
+    .content{
+        float: left;
+        height: 500px;
+        background-color:gray;
+    }
+}
